@@ -117,7 +117,7 @@
     }, React.createElement("div", {
       className: "kit-hero-photo"
     }, React.createElement("img", {
-      src: "assets/photos/hero-foto.jpg",
+      src: "hero-foto.jpg",
       alt: "trabalhador respondendo pelo celular",
       loading: "lazy",
       style: {
@@ -367,7 +367,7 @@
         marginBottom: 40
       }
     }, React.createElement("img", {
-      src: "assets/photos/cadeira-vazia.jpg",
+      src: "cadeira-vazia.jpg",
       alt: "Cadeira de escrit\xF3rio vazia",
       style: {
         width: '100%',
@@ -555,7 +555,7 @@
         justifySelf: 'center'
       }
     }, React.createElement("img", {
-      src: "assets/photos/cama-desarrumada.jpg",
+      src: "cama-desarrumada.jpg",
       alt: "Cama desarrumada depois de uma noite mal dormida",
       style: {
         width: '100%',
@@ -794,7 +794,7 @@
         aspectRatio: '16 / 9'
       }
     }, React.createElement("img", {
-      src: 'assets/photos/' + id + '.jpg',
+      src: '' + id + '.jpg',
       alt: 'Trabalhador ' + cap.toLowerCase(),
       loading: "lazy",
       style: {
@@ -1125,7 +1125,7 @@
     }, React.createElement("div", {
       className: "kit-auth-photo"
     }, React.createElement("img", {
-      src: "assets/photos/foto-samanta.jpg",
+      src: "foto-samanta.jpg",
       alt: "Dra. Samanta",
       loading: "lazy",
       style: {
@@ -1196,7 +1196,7 @@
         marginBottom: 32
       }
     }, React.createElement("img", {
-      src: "assets/photos/operador-maquina.jpg",
+      src: "operador-maquina.jpg",
       alt: "Operador de m\xE1quinas em posi\xE7\xE3o de trabalho",
       style: {
         width: '100%',
