@@ -1,0 +1,53 @@
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--vm-paper);
+  color: var(--vm-ink);
+  font-family: var(--vm-font-sans);
+  font-size: var(--vm-text-body);
+  line-height: var(--vm-leading-body);
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, .vm-display {
+  font-family: var(--vm-font-serif);
+  font-weight: 500;
+  line-height: var(--vm-leading-tight);
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+a { color: var(--vm-night-600); text-underline-offset: 3px; }
+a:hover { color: var(--vm-night-900); }
+:focus-visible { outline: 3px solid var(--vm-focus); outline-offset: 3px; }
+
+.vm-dark { background: var(--vm-night-950); color: #FFFFFF; }
+.vm-dark a { color: var(--vm-dawn-500); }
+.vm-dark a:hover { color: var(--vm-dawn-100); }
+.vm-dark .vm-muted { color: var(--vm-night-400); }
+
+.vm-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 48px; padding: 0 24px;
+  border-radius: var(--vm-radius-pill);
+  font: 600 1rem/1 var(--vm-font-sans);
+  text-decoration: none; cursor: pointer;
+  transition: background var(--vm-duration) var(--vm-ease), color var(--vm-duration) var(--vm-ease);
+}
+.vm-btn--primary { background: var(--vm-dawn-500); color: var(--vm-night-950); border: 0; }
+.vm-btn--primary:hover { background: var(--vm-dawn-600); color: var(--vm-night-950); }
+.vm-dark a.vm-btn--primary, .vm-dark a.vm-btn--primary:hover { color: var(--vm-night-950); }
+.vm-dark a.vm-btn--secondary, .vm-dark a.vm-btn--secondary:hover { color: #FFFFFF; }
+.vm-btn--secondary { background: transparent; color: currentColor; border: 1.5px solid currentColor; }
+.vm-btn--secondary:hover { background: rgba(255, 255, 255, 0.08); }
+.vm-btn--secondary.vm-on-light:hover { background: rgba(15, 30, 61, 0.05); }
+.vm-btn:disabled, .vm-btn[aria-disabled="true"] { opacity: 0.5; cursor: not-allowed; }
+
+.vm-eyebrow {
+  font: 600 var(--vm-text-eyebrow)/1 var(--vm-font-sans);
+  text-transform: uppercase;
+  letter-spacing: var(--vm-tracking-eyebrow);
+  color: var(--vm-night-600);
+}
+.vm-dark .vm-eyebrow { color: var(--vm-dawn-500); }
+
+.vm-field input, .vm-field textarea { transition: border-color var(--vm-duration) var(--vm-ease); }
+.vm-field input:focus, .vm-field textarea:focus { outline: 2px solid var(--vm-focus); outline-offset: 0; border-color: var(--vm-focus); }

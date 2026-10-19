@@ -1,0 +1,48 @@
+:root {
+  /* Noite (marca) */
+  --vm-night-950: #0B1630;
+  --vm-night-900: #0F1E3D;
+  --vm-night-700: #1C3260;
+  --vm-night-600: #2A4A80;
+  --vm-night-400: #6F86B3;
+  --vm-night-200: #C3CDE0;
+  --vm-night-100: #E3E8F2;
+  /* Amanhecer (destaque, com parcimônia) */
+  --vm-dawn-600: #D48A45;
+  --vm-dawn-500: #E9A86A;
+  --vm-dawn-100: #FBEBDB;
+  /* Neutros */
+  --vm-paper: #F7F5F0;
+  --vm-surface: #FFFFFF;
+  --vm-ink: #1A1F2B;
+  --vm-ink-muted: #545E70;
+  --vm-border: #DCD8CF;
+  --vm-border-dark: rgba(255, 255, 255, 0.12);
+  /* Estados */
+  --vm-success: #2F7D5B;
+  --vm-error: #B3261E;
+  --vm-focus: #F2C14E;
+  --vm-whatsapp: #25D366;
+
+  /* Semantic aliases */
+  --surface-page: var(--vm-paper);
+  --surface-card: var(--vm-surface);
+  --surface-soft: var(--vm-night-100);
+  --surface-dark: var(--vm-night-950);
+  --surface-dark-card: var(--vm-night-700);
+  --surface-brand: var(--vm-night-900);
+  --surface-highlight: var(--vm-dawn-100);
+  --text-body: var(--vm-ink);
+  --text-muted: var(--vm-ink-muted);
+  --text-on-dark: #FFFFFF;
+  --text-on-dark-lead: var(--vm-night-200);
+  --text-on-dark-muted: var(--vm-night-400);
+  --text-link: var(--vm-night-600);
+  --text-link-on-dark: var(--vm-dawn-500);
+  --text-accent-on-dark: var(--vm-dawn-500);
+  --border-default: var(--vm-border);
+  --border-on-dark: var(--vm-border-dark);
+  --action-primary: var(--vm-dawn-500);
+  --action-primary-hover: var(--vm-dawn-600);
+  --action-primary-text: var(--vm-night-950);
+}

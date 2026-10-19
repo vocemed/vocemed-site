@@ -1,0 +1,19 @@
+:root {
+  --vm-space-1: 4px;
+  --vm-space-2: 8px;
+  --vm-space-3: 12px;
+  --vm-space-4: 16px;
+  --vm-space-5: 24px;
+  --vm-space-6: 32px;
+  --vm-space-7: 48px;
+  --vm-space-8: 64px;
+  --vm-space-9: 96px;
+  --vm-space-10: 128px;
+  --vm-section-y: clamp(64px, 8vw, 128px); /* @kind spacing */
+
+  --vm-container: 1120px;
+  --vm-measure: 680px;
+  --vm-gutter: 16px;
+  --vm-gutter-lg: 32px;
+  --vm-touch: 48px;
+}

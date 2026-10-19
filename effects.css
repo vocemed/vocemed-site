@@ -1,0 +1,15 @@
+:root {
+  --vm-radius-sm: 6px;
+  --vm-radius-md: 12px;
+  --vm-radius-lg: 20px;
+  --vm-radius-pill: 999px;
+
+  --vm-shadow-card: 0 1px 2px rgba(15, 30, 61, 0.06), 0 8px 24px rgba(15, 30, 61, 0.06);
+  --vm-shadow-float: 0 8px 24px rgba(11, 22, 48, 0.25);
+
+  --vm-ease: cubic-bezier(0.2, 0.7, 0.2, 1); /* @kind other */
+  --vm-duration: 200ms; /* @kind other */
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --vm-duration: 0ms; /* @kind other */ }
+}
